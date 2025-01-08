@@ -5,15 +5,15 @@ import seaborn as sns
 import numpy as np
 
 # Membaca data (pastikan Anda sudah memiliki file data yang sesuai)
-customers_df = pd.read_csv("../data/customers_dataset.csv")
-geolocation_df = pd.read_csv("../data/geolocation_dataset.csv")
-order_items_df = pd.read_csv("../data/order_items_dataset.csv")
-order_payments_df = pd.read_csv("../data/order_payments_dataset.csv")
-order_reviews_df = pd.read_csv("../data/order_reviews_dataset.csv")
-orders_df = pd.read_csv("../data/orders_dataset.csv")
-category_df = pd.read_csv("../data/product_category_name_translation.csv")
-product_df = pd.read_csv("../data/products_dataset.csv")
-sellers_df = pd.read_csv("../data/sellers_dataset.csv")
+customers_df = pd.read_csv("data/customers_dataset.csv")
+geolocation_df = pd.read_csv("data/geolocation_dataset.csv")
+order_items_df = pd.read_csv("data/order_items_dataset.csv")
+order_payments_df = pd.read_csv("data/order_payments_dataset.csv")
+order_reviews_df = pd.read_csv("data/order_reviews_dataset.csv")
+orders_df = pd.read_csv("data/orders_dataset.csv")
+category_df = pd.read_csv("data/product_category_name_translation.csv")
+product_df = pd.read_csv("data/products_dataset.csv")
+sellers_df = pd.read_csv("data/sellers_dataset.csv")
 
 # --- Data Processing ---
 order_items_df['shipping_limit_date'] = pd.to_datetime(order_items_df['shipping_limit_date'])
