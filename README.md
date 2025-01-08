@@ -1,30 +1,30 @@
 # E-Commerce Public Data Analysis
 
-## Deskripsi Proyek
-Proyek ini bertujuan untuk menganalisis data publik dari platform e-commerce untuk memberikan wawasan tentang berbagai aspek bisnis, termasuk penjualan, rating produk, dan kategori produk. Dengan menggunakan data set dari transaksi pelanggan, produk, dan ulasan, proyek ini menyajikan hasil analisis yang berguna untuk pengambilan keputusan dalam meningkatkan penjualan dan pengalaman pelanggan.
+## Project Description
+This project aims to analyze public data from an e-commerce platform to provide insights into various business aspects, including sales, product ratings, and product categories. By using datasets from customer transactions, products, and reviews, this project provides valuable analysis results to help improve sales and customer experience.
 
-## Tujuan Proyek
-1. Menganalisis tren penjualan bulanan dan tahunan.
-2. Mengidentifikasi kategori produk yang paling banyak terjual.
-3. Menganalisis rating produk dan memberikan rekomendasi berdasarkan kategori dengan rating tertinggi.
-4. Membangun dashboard interaktif menggunakan Streamlit untuk visualisasi data dan hasil analisis.
+## Project Objectives
+1. Analyze monthly and yearly sales trends.
+2. Identify the best-selling product categories.
+3. Analyze product ratings and provide recommendations based on the highest-rated categories.
+4. Build an interactive dashboard using Streamlit to visualize data and analysis results.
 
-## Fitur
-- **Visualisasi Penjualan per Bulan**: Menampilkan tren penjualan dari tahun ke tahun dengan menggunakan grafik garis.
-- **Top 5 Kategori Produk berdasarkan Penjualan**: Menggunakan bar chart untuk menampilkan kategori produk terpopuler berdasarkan jumlah produk yang terjual.
-- **Analisis Rating Produk**: Menghitung dan menampilkan kategori produk dengan rating tertinggi dalam bentuk tabel dan heatmap.
-- **Dashboard Interaktif**: Menyediakan antarmuka interaktif untuk memfilter data berdasarkan tahun dan kategori, serta visualisasi grafik yang dinamis.
+## Features
+- **Sales by Month Visualization**: Displays sales trends over the years using a line chart.
+- **Top 5 Best-Selling Product Categories**: Shows the most popular product categories based on the total number of items sold in a bar chart.
+- **Product Rating Analysis**: Computes and displays the highest-rated product categories in a table and heatmap.
+- **Interactive Dashboard**: Provides an interface to filter data by year and category, with dynamic chart visualizations.
 
-## Teknologi yang Digunakan
-- **Python**: Bahasa pemrograman utama untuk analisis data dan pengembangan aplikasi.
-- **Pandas**: Digunakan untuk manipulasi dan analisis data.
-- **Seaborn & Matplotlib**: Untuk visualisasi data.
-- **Streamlit**: Untuk membangun dashboard interaktif.
-- **NumPy**: Untuk operasi numerik.
-- **CSV**: Format file data yang digunakan.
+## Technologies Used
+- **Python**: Main programming language for data analysis and application development.
+- **Pandas**: Used for data manipulation and analysis.
+- **Seaborn & Matplotlib**: For data visualization.
+- **Streamlit**: For building the interactive dashboard.
+- **NumPy**: For numerical operations.
+- **CSV**: Data file format used.
 
-## Instalasi
-Untuk menjalankan proyek ini, pastikan Anda memiliki Python terinstal di sistem Anda, lalu instal dependensi yang diperlukan dengan menjalankan perintah berikut:
+## Installation
+To run this project, ensure that Python is installed on your system, and then install the required dependencies by running the following command:
 
 ```bash
 pip install -r requirements.txt
