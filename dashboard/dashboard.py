@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 # Membaca data (pastikan Anda sudah memiliki file data yang sesuai)
 customers_df = pd.read_csv("../data/customers_dataset.csv")
@@ -197,3 +198,7 @@ plt.tight_layout()
 
 # Menampilkan heatmap di Streamlit
 st.pyplot(plt)
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+# Penutup dan Copyright
+st.caption('E-Commerce Public Dashboard |  Muhamad Fadhly Rafiansyah | © 2025')
