@@ -69,11 +69,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     with st.container():  # Menambahkan container untuk membungkus elemen
-        st.markdown("<div style='background-color:#f0f0f5; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);'><h4>Total Orders</h4><h3>{:,}</h3></div>".format(total_orders), unsafe_allow_html=True)
+        st.markdown("<div style='background-color:#b0ceff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);'><h4>Total Orders</h4><h3>{:,}</h3></div>".format(total_orders), unsafe_allow_html=True)
 
 with col2:
     with st.container():  # Menambahkan container untuk membungkus elemen
-        st.markdown("<div style='background-color:#f0f0f5; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);'><h4>Total Sales</h4><h3>${:,.2f}</h3></div>".format(total_sales), unsafe_allow_html=True)
+        st.markdown("<div style='background-color:#b0ceff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);'><h4>Total Sales</h4><h3>${:,.2f}</h3></div>".format(total_sales), unsafe_allow_html=True)
 
 
 # Visualisasi perkembangan penjualan per bulan
